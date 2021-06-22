@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<style type="text/css">
+	.sf{
+		text-align: center;
+	}
+	.fr{
+		text-align: center;
+	}
+	label{
+		width: 240px;
+		display: inline-block;
+
+	}
+	input{
+		padding: 6px;
+		font-size: 14px;
+		border-radius: 4px;
+	}
+	body{
+		text-align: center;
+		box-sizing: -40px -40px;
+		box-shadow: 5px #31b3ff;
+	}
+	.suggest{
+		text-align: center;
+		display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        width: -10%;
+
+	}
+	.form{
+		background-color: orange;
+		padding: 20px;
+		margin: 100px;
+		
+		margin-top: -30px;
+	}
+	</style>
+<html>
+<big>
+<head>
+	<title>Survey</title>
+	<h1 class=sf>Survey Form</h1>
+</head>
+<body style="background-color: #a9d7d1" style="text-align: center;">
+	<br>
+	<br>
+	<div class="form">
+		<form>
+			<div class="for">
+			<label for="name">Name:</label>
+			<input type="text" name="name" value="please enter your name">
+			<br>
+			<br>
+			<label for="email">Email:</label>
+			<input type="email" name="email" value="please enter your email">
+			<br>
+			<br>
+			<label for="age">Age:    </label>
+			<input type="text" name="age" value="please enter your age">
+			<br>
+			<br>
+			<label for="password">Password:</label>
+			<input type="password" name="password" value="">
+			</div>
+			<div style="margin: auto;">
+				<br>
+				<label for="role">Which option address your current role:</label>
+					<select name="role">
+						<option value="student">Student</option>
+						<option value="Self Employeed">Self employee</option>
+						<option value="Not Employeed">Not Employeed</option>
+					</select>
+			</div>
+				<br>
+				<div class="">
+			<p style="padding-right: 40px">How likely would you suggest someone Freecodecamp?</p>
+			<input class="suggest" type="radio" name="suggest" value="definitely">definitely<br>
+			<input class="suggest" type="radio" name="suggest" value="Maybe">Maybe<br>
+			<input class="suggest" type="radio" name="suggest" value="Not Sure">Not Sure
+			</div>
+			<br>
+			<p>Things to improve in future</p>
+			<div>
+				<input type="checkbox" name="improve" value="Front-end Projects">Front-end Projects
+				<input type="checkbox" name="improve" value="Back-end Projects">Back-end Projects
+				<input type="checkbox" name="improve" value="Data Visualization">Data Visualization
+			</div>
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+</body>
+</big>
+</html>
